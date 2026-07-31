@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<link rel="icon" type="image/png" href="assets/LarassantiLogo.png">
+<title>Larassanti — Content Creator Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@300;400;500;600&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="petals"></canvas>
+
+<nav id="nav">
+  <div class="brand">Laras<span>santi</span></div>
+  <div class="nav-links" id="navLinks">
+    <a href="#about">Profil</a>
+    <a href="#projects">Proyek</a>
+    <a href="#videos">Video</a>
+    <a href="#experience">Pengalaman</a>
+    <a href="#skills">Keahlian</a>
+    <a href="#credentials">Kredensial</a>
+    <a href="#contact">Kontak</a>
+  </div>
+  <div class="nav-toggle" id="navToggle" aria-label="Buka menu" role="button" tabindex="0">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="eyebrow">Content Creator · Geografi · Visual Storyteller</div>
+  <h1>Larassanti <em>S.Si</em></h1>
+  <p class="sub">Fresh graduate Geografi dari Universitas Negeri Padang yang jatuh cinta pada data, cerita visual, dan detail kecil di balik setiap konten — dari editing foto & video, pengelolaan store, hingga pemetaan lapangan.</p>
+  <div class="hero-cta">
+    <a href="assets/CV_Larassanti.pdf" download="CV_Larassanti.pdf" class="btn filled">↓ Unduh CV</a>
+    <a href="#projects" class="btn ghost">Lihat Proyek</a>
+  </div>
+  <div class="scroll-hint">Scroll<div class="stem"></div></div>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-grid">
+    <div class="portrait-wrap">
+      <div class="portrait-ring"></div>
+      <div class="portrait">
+        <img src="assets/Foto larassanti.jpeg" alt="Foto Larassanti" loading="lazy">
+      </div>
+      <div class="portrait-tag">Tangerang, Indonesia</div>
+    </div>
+    <div class="about-copy">
+      <div class="eyebrow" style="margin-bottom:14px;">Tentang Saya</div>
+      <h2 class="serif intro-h2">Merangkai data <span class="script">&amp; cerita</span> jadi konten yang bermakna</h2>
+      <p>Saya Larassanti, lulusan S1 Geografi Universitas Negeri Padang dengan IPK 3.05. Pengalaman kerja saya melintasi banyak dunia — dari tata usaha di Kejaksaan Negeri Padang, survei kebencanaan bersama BPBD, hingga mengelola konten dan data toko sebagai supervisor di Diva Jewelry Indonesia.</p>
+      <p>Perpaduan itu membentuk saya menjadi seseorang yang teliti pada data namun tetap peka pada estetika — memotret, mengedit video, menyusun laporan, dan membangun engagement dengan customer adalah keseharian saya.</p>
+      <div class="stat-row">
+        <div class="stat"><h3>3.05</h3><span>IPK Geografi</span></div>
+        <div class="stat"><h3>5+</h3><span>Pengalaman Kerja</span></div>
+        <div class="stat"><h3>2</h3><span>Organisasi Aktif</span></div>
+        <div class="stat"><h3>1</h3><span>Sertifikasi BNSP</span></div>
+      </div>
+      <a href="assets/CV LARASSANTI.pdf" download="CV_Larassanti.pdf" class="btn ghost cv-btn">↓ Unduh CV Lengkap (PDF)</a>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="no-top-pad">
+  <div class="edu-row">
+    <div class="edu-card">
+      <span class="eyebrow">2019 — 2025 · Padang</span>
+      <h4>S1 Geografi — Universitas Negeri Padang</h4>
+      <p>IPK 3.05 · Fokus analisis data, survei &amp; pemetaan wilayah</p>
+    </div>
+    <div class="edu-card">
+      <span class="eyebrow">2016 — 2019 · Padang</span>
+      <h4>SMK Nusatama Padang — Akuntansi</h4>
+      <p>Dasar pencatatan keuangan &amp; administrasi</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-head">
+    <div class="eyebrow">Portofolio Konten</div>
+    <h2>Proyek Content Creator</h2>
+    <div class="divider"></div>
+    <p>Sekilas jenis konten yang biasa saya kerjakan — dari konten toko, video promosi, hingga dokumentasi visual lapangan. Klik kartu untuk melihat detail proyek.</p>
+  </div>
+
+  <div class="projects-grid" id="projectsGrid">
+    <button class="project-card" data-project="0">
+      <span class="project-thumb thumb-1" aria-hidden="true">
+        <svg viewBox="0 0 64 64"><path d="M32 6c6 8 16 14 16 26a16 16 0 1 1-32 0C16 20 26 14 32 6z"/></svg>
+      </span>
+      <span class="project-tag">Sosial Media</span>
+      <h4>Konten Feed &amp; Reels — Diva Jewelry</h4>
+      <span class="project-view">Lihat detail →</span>
+    </button>
+
+    <button class="project-card" data-project="1">
+      <span class="project-thumb thumb-2" aria-hidden="true">
+        <svg viewBox="0 0 64 64"><rect x="10" y="18" width="44" height="30" rx="4"/><path d="M24 48v6h16v-6"/></svg>
+      </span>
+      <span class="project-tag">Video Editing</span>
+      <h4>Video Promosi Menu — Kopi Kenangan</h4>
+      <span class="project-view">Lihat detail →</span>
+    </button>
+
+    <button class="project-card" data-project="2">
+      <span class="project-thumb thumb-3" aria-hidden="true">
+        <svg viewBox="0 0 64 64"><path d="M8 46l14-20 10 12 8-10 16 18z"/><circle cx="20" cy="18" r="5"/></svg>
+      </span>
+      <span class="project-tag">Fotografi Produk</span>
+      <h4>Sesi Foto Produk — Diva Jewelry</h4>
+      <span class="project-view">Lihat detail →</span>
+    </button>
+
+    <button class="project-card" data-project="3">
+      <span class="project-thumb thumb-4" aria-hidden="true">
+        <svg viewBox="0 0 64 64"><path d="M6 40l12-16 10 10 12-18 18 24z"/></svg>
+      </span>
+      <span class="project-tag">Geospasial</span>
+      <h4>Peta Tematik Daerah Bencana — BPBD</h4>
+      <span class="project-view">Lihat detail →</span>
+    </button>
+
+    <button class="project-card" data-project="4">
+      <span class="project-thumb thumb-5" aria-hidden="true">
+        <svg viewBox="0 0 64 64"><rect x="8" y="10" width="48" height="44" rx="6"/><path d="M8 24h48" /></svg>
+      </span>
+      <span class="project-tag">Behind The Scenes</span>
+      <h4>Daily Vlog &amp; Dokumentasi Store</h4>
+      <span class="project-view">Lihat detail →</span>
+    </button>
+
+    <button class="project-card" data-project="5">
+      <span class="project-thumb thumb-6" aria-hidden="true">
+        <svg viewBox="0 0 64 64"><path d="M32 8l6 14 15 2-11 10 3 15-13-8-13 8 3-15L11 24l15-2z"/></svg>
+      </span>
+      <span class="project-tag">Laporan Visual</span>
+      <h4>Laporan Administrasi &amp; Data Store</h4>
+      <span class="project-view">Lihat detail →</span>
+    </button>
+  </div>
+</section>
+
+<!-- PROJECT MODAL -->
+<div class="project-modal" id="projectModal" aria-hidden="true">
+  <div class="modal-backdrop" data-close="true"></div>
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" data-close="true" aria-label="Tutup">✕</button>
+    <span class="modal-thumb" id="modalThumb"></span>
+    <span class="project-tag" id="modalTag"></span>
+    <h3 id="modalTitle"></h3>
+    <p id="modalDesc"></p>
+    <div class="modal-meta">
+      <div><span class="eyebrow">Peran</span><p id="modalRole"></p></div>
+      <div><span class="eyebrow">Tools</span><p id="modalTools"></p></div>
+    </div>
+  </div>
+</div>
+
+<!-- VIDEO SHOWCASE -->
+<section id="videos">
+  <div class="section-head">
+    <div class="eyebrow">Sorotan Konten</div>
+    <h2>Video Showcase</h2>
+    <div class="divider"></div>
+    <p>Kumpulan video pendek yang saya produksi dan edit — dari konten media sosial hingga dokumentasi keseharian di store. Klik untuk memutar.</p>
+  </div>
+
+  <div class="video-grid" id="videoGrid">
+    <button class="video-card" data-video="0">
+      <span class="video-thumb"><img src="assets/videos/thumbs/video1.jpeg" alt="Thumbnail video konten 1" loading="lazy"></span>
+      <span class="video-play" aria-hidden="true">▶</span>
+      <span class="video-duration">0:10</span>
+      <span class="video-caption">Konten Video 1</span>
+    </button>
+    <button class="video-card" data-video="1">
+      <span class="video-thumb"><img src="assets/videos/thumbs/video2.jpeg" alt="Thumbnail video konten 2" loading="lazy"></span>
+      <span class="video-play" aria-hidden="true">▶</span>
+      <span class="video-duration">0:06</span>
+      <span class="video-caption">Konten Video 2</span>
+    </button>
+    <button class="video-card" data-video="2">
+      <span class="video-thumb"><img src="assets/videos/thumbs/video3.jpeg" alt="Thumbnail video konten 3" loading="lazy"></span>
+      <span class="video-play" aria-hidden="true">▶</span>
+      <span class="video-duration">0:07</span>
+      <span class="video-caption">Konten Video 3</span>
+    </button>
+    <button class="video-card" data-video="3">
+      <span class="video-thumb"><img src="assets/videos/thumbs/video4.jpeg" alt="Thumbnail video konten 4" loading="lazy"></span>
+      <span class="video-play" aria-hidden="true">▶</span>
+      <span class="video-duration">0:09</span>
+      <span class="video-caption">Konten Video 4</span>
+    </button>
+    <button class="video-card" data-video="4">
+      <span class="video-thumb"><img src="assets/videos/thumbs/video5.jpeg" alt="Thumbnail video konten 5" loading="lazy"></span>
+      <span class="video-play" aria-hidden="true">▶</span>
+      <span class="video-duration">0:15</span>
+      <span class="video-caption">Konten Video 5</span>
+    </button>
+    <button class="video-card" data-video="5">
+      <span class="video-thumb"><img src="assets/videos/thumbs/video6.jpeg" alt="Thumbnail video konten 6" loading="lazy"></span>
+      <span class="video-play" aria-hidden="true">▶</span>
+      <span class="video-duration">0:14</span>
+      <span class="video-caption">Konten Video 6</span>
+    </button>
+    <button class="video-card" data-video="6">
+      <span class="video-thumb"><img src="assets/videos/thumbs/video7.jpeg" alt="Thumbnail video konten 7" loading="lazy"></span>
+      <span class="video-play" aria-hidden="true">▶</span>
+      <span class="video-duration">0:30</span>
+      <span class="video-caption">Konten Video 7</span>
+    </button>
+  </div>
+</section>
+
+<!-- VIDEO MODAL -->
+<div class="video-modal" id="videoModal" aria-hidden="true">
+  <div class="modal-backdrop" data-video-close="true"></div>
+  <div class="video-modal-panel" role="dialog" aria-modal="true" aria-labelledby="videoModalCaption">
+    <button class="modal-close" data-video-close="true" aria-label="Tutup">✕</button>
+    <video id="videoPlayer" playsinline controls></video>
+    <p id="videoModalCaption" class="video-modal-caption"></p>
+  </div>
+</div>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-head">
+    <div class="eyebrow">Perjalanan Karier</div>
+    <h2>Pengalaman Kerja</h2>
+    <div class="divider"></div>
+    <p>Setiap peran mengajarkan saya cara berbeda dalam mengelola data, orang, dan cerita.</p>
+  </div>
+
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-role">Supervisor</div>
+      <div class="tl-org">Diva Jewelry Indonesia</div>
+      <div class="tl-date">Nov 2025 — Mei 2026</div>
+      <ul>
+        <li>Melayani customer secara offline maupun online</li>
+        <li>Mengelola input orderan customer dan laporan harian</li>
+        <li>Bertanggung jawab atas stock dan administrasi store</li>
+        <li>Membuat konten serta editing video dan foto untuk store</li>
+        <li>Mengawal pencapaian target penjualan store</li>
+      </ul>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-role">Barista</div>
+      <div class="tl-org">Kopi Kenangan</div>
+      <div class="tl-date">Apr 2024 — Okt 2025</div>
+      <ul>
+        <li>Memastikan pesanan sesuai serta melakukan upselling ke customer</li>
+        <li>Menjaga kebersihan area dan bahan baku store</li>
+        <li>Menyusun stock opname dan mengelola data administrasi store</li>
+      </ul>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-role">Internship — Survei &amp; Pemetaan</div>
+      <div class="tl-org">BPBD dan Kesbangpol Kota Padang Panjang</div>
+      <div class="tl-date">Jul 2022 — Agu 2022</div>
+      <ul>
+        <li>Mendisposisikan surat masuk dan surat keluar</li>
+        <li>Melakukan survei ke lokasi bencana</li>
+        <li>Melakukan pemetaan daerah bencana</li>
+      </ul>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-role">Kasir</div>
+      <div class="tl-org">Toko Kue Minang Nan Tigo</div>
+      <div class="tl-date">Jan 2021 — Okt 2021</div>
+      <ul>
+        <li>Melayani lebih dari 100 pelanggan toko setiap harinya</li>
+        <li>Menyusun laporan keuangan dan stock opname</li>
+      </ul>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-role">Internship Staff Tata Usaha</div>
+      <div class="tl-org">Kejaksaan Negeri Padang</div>
+      <div class="tl-date">Jan 2018 — Apr 2018</div>
+      <ul>
+        <li>Menerima dan mendisposisikan surat masuk kasus kriminal</li>
+        <li>Mencatat surat keluar tugas dan membagikannya kepada jaksa</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-head">
+    <div class="eyebrow">Yang Saya Kuasai</div>
+    <h2>Keahlian</h2>
+    <div class="divider"></div>
+    <p>Kombinasi ketelitian analitis dan kepekaan visual seorang content creator.</p>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-card"><span class="icon">✿</span><h4>Analisis Data</h4><p>Mengolah data lapangan menjadi insight yang mudah dipahami.</p></div>
+    <div class="skill-card"><span class="icon">✿</span><h4>Editing Video &amp; Foto</h4><p>Menyusun konten visual untuk kebutuhan promosi store.</p></div>
+    <div class="skill-card"><span class="icon">✿</span><h4>Public Speaking</h4><p>Menyampaikan edukasi dan presentasi dengan percaya diri.</p></div>
+    <div class="skill-card"><span class="icon">✿</span><h4>Surveyor &amp; Pemetaan</h4><p>Berpengalaman survei lokasi dan pemetaan daerah bencana.</p></div>
+    <div class="skill-card"><span class="icon">✿</span><h4>Team Work &amp; Leadership</h4><p>Terbiasa memimpin dan berkolaborasi dalam organisasi maupun tim kerja.</p></div>
+    <div class="skill-card"><span class="icon">✿</span><h4>Problem Solving</h4><p>Menyelesaikan kendala operasional dengan cepat dan tepat.</p></div>
+    <div class="skill-card"><span class="icon">✿</span><h4>Administrasi &amp; Accounting</h4><p>Menyusun laporan keuangan dan administrasi toko secara rapi.</p></div>
+    <div class="skill-card"><span class="icon">✿</span><h4>Microsoft Office</h4><p>Terampil menggunakan Word, Excel, dan PowerPoint untuk pelaporan.</p></div>
+  </div>
+</section>
+
+<!-- CREDENTIALS: CERT + ORG -->
+<section id="credentials">
+  <div class="section-head">
+    <div class="eyebrow">Rekam Jejak</div>
+    <h2>Sertifikasi &amp; Organisasi</h2>
+    <div class="divider"></div>
+  </div>
+  <div class="cert-org-wrap">
+    <div class="cert-card">
+      <span class="eyebrow">Sertifikasi</span>
+      <h3>BNSP — Remote Sensing Operator</h3>
+      <p class="cert-desc">Sertifikasi resmi Badan Nasional Sertifikasi Profesi di bidang operasional penginderaan jauh, mendukung kemampuan analisis dan pemetaan geospasial.</p>
+      <span class="badge">Tersertifikasi</span>
+    </div>
+    <div class="org-list">
+      <h3>Organisasi &amp; Volunteering</h3>
+      <div class="org-block">
+        <h4>HIMAGEO — Universitas Negeri Padang</h4>
+        <ul>
+          <li>Ketua Pelaksana Geografi Training Leadership</li>
+          <li>Turut mensukseskan berbagai event HIMA-Geo</li>
+          <li>Berpartisipasi dalam proyek-proyek organisasi</li>
+        </ul>
+      </div>
+      <div class="org-block">
+        <h4>OSIS — SMK Nusatama Padang</h4>
+        <ul>
+          <li>Mensukseskan acara PLS bagi peserta didik baru</li>
+          <li>Anggota panitia Pentas Seni dan Perpisahan Sekolah</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="eyebrow">Mari Terhubung</div>
+  <h2>Terbuka untuk Kolaborasi <span class="script">&amp; Peluang Baru</span></h2>
+  <p class="lead">Tertarik bekerja sama untuk konten, riset data, atau proyek geospasial? Jangan ragu menghubungi saya.</p>
+  <div class="contact-links">
+    <a href="mailto:larassanti220800@gmail.com">✉ larassanti220800@gmail.com</a>
+    <a href="tel:08387463003">☏ 0838-7463-2003</a>
+    <a href="#about">✿ Jl. Taruna No 8, Babakan, Tangerang</a>
+  </div>
+  <a href="mailto:larassanti220800@gmail.com" class="btn filled">Kirim Email</a>
+</section>
+
+<footer>© 2026 Larassanti — Dirancang dengan sentuhan sakura ✿</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
